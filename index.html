@@ -1,83 +1,90 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>Test Page</h1>
-    <div class="container">
-      <h2>Colors</h2>
-      <div class="color-container">
-        <div class="color-panel cool-blue">
-          <p class="color-label" >Cool Blue</p>
-          <p class="color-hex">#2d5dcc</p>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tea Cozy</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+    <header>
+    <img class="logo" src="images/img-tea-cozy-logo.webp" alt="logo">
+        <nav>
+            <ul class="nav-links">
+                <li class=""><a href="#">Mission</a></li>
+                <li class=""><a href="#">Featured Tea</a></li>
+                <li class=""><a href="#">Locations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="container" id="mission">
+            <div class=mission-wrapper>
+                <h2>Our Mission</h2>
+                <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+            </div>
         </div>
-        <div class="color-panel pink">
-          <p class="color-label" >Pink</p>
-          <p class="color-hex">#d957d9</p>
-        </div>
-        <div class="color-panel mint-green">
-          <p class="color-label" >Mint Green</p>
-          <p class="color-hex">#4fe0b0</p>
-        </div>
-        <div class="color-panel beige">
-          <p class="color-label" >Beige</p>
-          <p class="color-hex">#efd9ca</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <h2>Fonts</h2>
-      <div class="font-container">
-        <div class="font-panel">
-          <p class="font-label source-code-pro">Source Code Pro</p>
-          <p class="regular source-code-pro">The quick brown fox jumps over the lazy dog.</p>
-          <p class="bold source-code-pro">The quick brown fox jumps over the lazy dog.</p>
-          <p class="italic source-code-pro">The quick brown fox jumps over the lazy dog.</p>
-        </div>
-        <div class="font-panel">
-          <p class="font-label nunito-sans">Nunito Sans</p>
-          <p class="regular nunito-sans">The quick brown fox jumps over the lazy dog.</p>
-          <p class="bold nunito-sans">The quick brown fox jumps over the lazy dog.</p>
-          <p class="italic nunito-sans">The quick brown fox jumps over the lazy dog.</p>
-        </div>
-        <div class="font-panel">
-          <p class="font-label poppins">Poppins</p>
-          <p class="regular poppins">The quick brown fox jumps over the lazy dog.</p>
-          <p class="bold poppins">The quick brown fox jumps over the lazy dog.</p>
-          <p class="italic poppins">The quick brown fox jumps over the lazy dog.</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <h2>Text Styles</h2>
-      <div class="text-container">
-        <div class="text-panel">
-          <h1>H1: Main page heading</h1>
-          <ul>
-            <li>Font-weight: 700 (bold)</li>
-            <li>Font-size: 26px</li>
-            <li>Font-family: Nunito Sans</li>
-          </ul>
-        </div>
-        <div class="text-panel">
-          <h2>H2: Subheading</h2>
-          <ul>
-            <li>Font-weight: 500</li>
-            <li>Font-size: 18px</li>
-            <li>Font-family: Poppins</li>
-          </ul>
-        </div>
-        <div class="text-panel">
-          <p>P: Paragraph text</p>
-          <ul>
-            <li>Font-weight: 400 (regular)</li>
-            <li>Font-size: 14px</li>
-            <li>Font-family: Poppins</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </body>
+        <section class="container" id="totm">
+            <div class="gallery-wrapper">
+            <h2>Tea of the Month</h2>
+            <h4>What's Steeping at the Tea Cozy?</h4>
+                <div class="img-gallery">
+                    <div class="img-item">
+                        <img src="images/img-berryblitz.webp" alt="">
+                        <h4>Fall Berry Blitz Tea</h4>
+                    </div>
+                    <div class="img-item">
+                        <img src="images/img-spiced-rum.webp" alt="">
+                        <h4>Spiced Rum Tea</h4>
+                    </div>
+                    <div class="img-item">
+                        <img src="images/img-donut.webp" alt="">
+                        <h4>Seasonal Donuts</h4>
+                    </div>
+                    <div class="img-item">
+                        <img src="images/img-myrtle-ave.webp" alt="">
+                        <h4>Myrtle Ave Tea</h4>
+                    </div>
+                    <div class="img-item"><img src="images/img-bedford-bizarre.webp" alt="">
+                        <h4>Bedford Bizarre Tea</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="location">
+            <div class="location-wrapper">
+                <h2>Locations</h2>
+                <div class=wrapper-box>
+                    <div class=container-box>
+                        <h3>Downtown</h3>
+                        <h5>384 West 4th Street</h5>
+                        <h5>Suite 108</h5>
+                        <h5>Portland, Maine</h5>
+                    </div>
+                    <div class=container-box>
+                        <h3>East Bayside</h3>
+                        <h5>3433 Phisherman's Avenue</h5>
+                        <h5>Northwest Corner</h5>
+                        <h5>Portland, Maine</h5>
+                    </div>
+                    <div class=container-box>
+                        <h3>Oakdale</h3>
+                        <h5>515 Crescent Avenue</h5>
+                        <h5>Second Floor</h5>
+                        <h5>Portland, Maine</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="contact">
+            <div class="contact-wrapper">
+                <h2>The Tea Cozy</h2>
+                <h5>contact@theteacozy.com</h5>
+                <h5>917-555-8904</h5>
+            </div>
+        </section>
+        <footer>
+            <h5>copyright the tea cozy 2017</h5>
+        </footer>
+    </body>
 </html>
